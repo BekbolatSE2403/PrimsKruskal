@@ -1,0 +1,114 @@
+{"results": [
+  {
+    "prim": {
+      "mst_edges": [
+        {
+          "weight": 3,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 2,
+          "from": "C",
+          "to": "B"
+        },
+        {
+          "weight": 5,
+          "from": "B",
+          "to": "D"
+        },
+        {
+          "weight": 6,
+          "from": "D",
+          "to": "E"
+        }
+      ],
+      "total_cost": 16,
+      "execution_time_ms": 0.141397,
+      "operations_count": 72
+    },
+    "input_stats": {
+      "vertices": 5,
+      "edges": 7
+    },
+    "kruskal": {
+      "mst_edges": [
+        {
+          "weight": 2,
+          "from": "B",
+          "to": "C"
+        },
+        {
+          "weight": 3,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 5,
+          "from": "B",
+          "to": "D"
+        },
+        {
+          "weight": 6,
+          "from": "D",
+          "to": "E"
+        }
+      ],
+      "total_cost": 16,
+      "execution_time_ms": 0.898262,
+      "operations_count": 38
+    },
+    "graph_id": 1
+  },
+  {
+    "prim": {
+      "mst_edges": [
+        {
+          "weight": 1,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 2,
+          "from": "B",
+          "to": "C"
+        },
+        {
+          "weight": 3,
+          "from": "C",
+          "to": "D"
+        }
+      ],
+      "total_cost": 6,
+      "execution_time_ms": 0.026167,
+      "operations_count": 45
+    },
+    "input_stats": {
+      "vertices": 4,
+      "edges": 5
+    },
+    "kruskal": {
+      "mst_edges": [
+        {
+          "weight": 1,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 2,
+          "from": "B",
+          "to": "C"
+        },
+        {
+          "weight": 3,
+          "from": "C",
+          "to": "D"
+        }
+      ],
+      "total_cost": 6,
+      "execution_time_ms": 0.020986,
+      "operations_count": 24
+    },
+    "graph_id": 2
+  }
+]}
